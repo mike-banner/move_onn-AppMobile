@@ -1,0 +1,36 @@
+# .gitignore standard pour projet mobile hybride (iOS/Android/Flutter/RN)
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Android
+.gradle/
+local.properties
+.idea/
+
+# iOS
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata/
+DerivedData/
